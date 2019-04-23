@@ -61,7 +61,7 @@ Add the following content and change `1440x900` to `1920x1080`:
 # Carry out specific functions when asked to by the system
 case "$1" in
 start)
-    su pi -c '/usr/bin/vncserver -geometry 1440x900'
+    su ubuntu -c '/usr/bin/vncserver -geometry 1024x768'
     echo "Starting VNC server "
     ;;
 stop)
